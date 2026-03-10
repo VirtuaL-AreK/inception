@@ -3,7 +3,7 @@ VOLUME_PATH = /home/$(HOST_USER)/data
 DC = cd srcs && VOLUME_PATH=$(VOLUME_PATH) docker compose
 WORDPRESS_VOLUME = $(VOLUME_PATH)/wordpress
 MARIADB_VOLUME = $(VOLUME_PATH)/mariadb
-DOMAIN = ielkher.42.fr
+DOMAIN = iel-kher.42.fr
 
 all: setup build up
 
